@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const User = (props) => {
   const {user} = props;
   return (
-    <div className = 'container'>
+    <div className = 'container-column'>
           <img src = {user.picture.thumbnail} alt = {user.name.first}/>
           <p>
             Name: {user.name.first} {user.name.last} 
@@ -15,4 +15,4 @@ const User = (props) => {
   );
 };
 
-export default User
+export default User;
